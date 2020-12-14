@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const _import = require("./_import_" + process.env.NODE_ENV).default
+// const _importComp = require("./_import_" + process.env.NODE_ENV + "Comp").default;
 
 Vue.use(VueRouter)
 

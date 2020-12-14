@@ -1,20 +1,20 @@
 <template>
     <div>
         Home
-        <button @click="con">打印</button>
-        <ueditor v-model="aaa"/>
+        <img :src="`${publicPath}mark.ico`" alt="">
+        <ueditor/>
     </div>
 </template>
 <script>
 export default {
     data(){
         return{
-            aaa: ""
+            publicPath: process.env.BASE_URL
         }
     },
     methods: {
-        con(){
-            console.log("123",this.aaa)
+        aaa(e){
+            console.log("eee",e)
         }
     },
 }

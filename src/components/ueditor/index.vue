@@ -48,6 +48,8 @@ export default {
     init () {
       // 注册一个测试按钮
     },
+    //工具栏新增上传图片按钮
+    //参考官网 http://fex.baidu.com/ueditor/#start-toolbar
     addCustomButtom (editorId) {
       const that  = this
       window.UE.registerUI(
@@ -71,7 +73,7 @@ export default {
             title: "上传图片",
             // 需要添加的额外样式，可指定 icon 图标，图标路径参考常见问题 2
             cssRules:
-              "background-image: url('/images/icon/icon-upload.png') !important;background-size: cover;",
+              "background-image: url('upload.png') !important;background-size: cover;",
             // 点击时执行的命令
             onclick: () => {
               // 这里可以不用执行命令，做你自己的操作也可
@@ -86,6 +88,7 @@ export default {
         editorId /* 指定这个 UI 是哪个编辑器实例上的，默认是页面上所有的编辑器都会添加这个按钮 */
       );
     },
+    //默认上传的图片
     uploadImg () {
       const editor = this.$refs.ueditor.editor
       editor.execCommand(
