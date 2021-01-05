@@ -1,5 +1,5 @@
 # my-admin
-
+一个基于vue-cli的后台管理框架，集成有百度富文本编辑器
 ## Project setup
 ```
 npm install
