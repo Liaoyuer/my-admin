@@ -23,6 +23,9 @@
         </template>
         <el-menu-item index="home">home</el-menu-item>
         <el-menu-item index="set">set</el-menu-item>
+        <el-menu-item index="DagComponents">DagComponents</el-menu-item>
+        <el-menu-item index="steps">分步骤</el-menu-item>
+        <!-- <el-menu-item index="SealDrag">拉拽</el-menu-item> -->
       </el-submenu>
     </el-menu>
   </div>

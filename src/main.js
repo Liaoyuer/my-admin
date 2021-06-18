@@ -12,6 +12,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import globalMixin from "./mixin/index"
 //引入util
 import utils from "./util"
+//import "./validate/validate"; //表单验证
 
 Vue.component('ueditor', Ueditor)
 Vue.prototype.$utils = utils

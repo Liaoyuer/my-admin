@@ -21,7 +21,22 @@ const routes = [
         path: "/set",
         name: 'Set',
         component: _import('Set')
-      }
+      },
+      {
+        path: "/dagComponents",
+        name: 'DagComponents',
+        component: _import('DagComponents')
+      },
+      {
+        path: "/steps",
+        name: 'steps',
+        component: _import('steps/index')
+      },
+    //   {
+    //     path: "/sealDrag",
+    //     name: 'SealDrag',
+    //     component: _import('SealDrag')
+    //   }
     ]
   }
 ]
