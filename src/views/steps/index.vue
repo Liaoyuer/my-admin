@@ -118,7 +118,7 @@ export default {
   .body {
     display: flex;
     flex: 1;
-    height: 0;
+    // height: 0;
     overflow: auto;
     &::-webkit-scrollbar {
       display: none;

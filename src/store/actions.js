@@ -5,3 +5,8 @@ export const addUser = function ({
 }) {
   commit(types.ADDUSER)
 }
+export const formData = function ({
+  commit
+}) {
+  commit(types.FORMDATA)
+}

@@ -1,4 +1,4 @@
 export default {
-    ADDUSER: "ADDUSER"
+    ADDUSER: "ADDUSER",
+    FORMDATA: "FORMDATA",
   }
-  

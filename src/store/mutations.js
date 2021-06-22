@@ -5,6 +5,11 @@ const matutaions = {
     if (action) {
       state.userInfo = action
     }
+  },
+  [types.FORMDATA] (state, action) {
+    if (action) {
+      state.formData = action
+    }
   }
 }
 
