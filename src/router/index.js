@@ -32,6 +32,16 @@ const routes = [
         name: 'steps',
         component: _import('steps/index')
       },
+      {
+        path: "/parent",
+        name: 'Parent',
+        component: _import('parentToGrandchild/Parent')
+      },
+      {
+        path: "/provideInject",
+        name: 'Parent',
+        component: _import('provideInject/Parent')
+      },
     //   {
     //     path: "/sealDrag",
     //     name: 'SealDrag',

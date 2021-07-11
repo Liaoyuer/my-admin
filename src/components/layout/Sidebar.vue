@@ -25,6 +25,8 @@
         <el-menu-item index="set">set</el-menu-item>
         <el-menu-item index="DagComponents">DagComponents</el-menu-item>
         <el-menu-item index="steps">分步骤</el-menu-item>
+        <el-menu-item index="parent">父传孙$attrs</el-menu-item>
+        <el-menu-item index="provideInject">父传子子孙孙provideInject</el-menu-item>
         <!-- <el-menu-item index="SealDrag">拉拽</el-menu-item> -->
       </el-submenu>
     </el-menu>
