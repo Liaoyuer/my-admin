@@ -42,6 +42,11 @@ const routes = [
         name: 'Parent',
         component: _import('provideInject/Parent')
       },
+      {
+        path: "/textCloud",
+        name: 'TextCloud',
+        component: _import('navigeTwo/TextCloud')
+      },
     //   {
     //     path: "/sealDrag",
     //     name: 'SealDrag',

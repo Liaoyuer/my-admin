@@ -29,6 +29,13 @@
         <el-menu-item index="provideInject">父传子子孙孙provideInject</el-menu-item>
         <!-- <el-menu-item index="SealDrag">拉拽</el-menu-item> -->
       </el-submenu>
+      <el-submenu index="2">
+        <template slot="title">
+          <i class="el-icon-location"></i>
+          <span>导航二</span>
+        </template>
+        <el-menu-item index="textCloud">词云</el-menu-item>
+      </el-submenu>
     </el-menu>
   </div>
 </template>
